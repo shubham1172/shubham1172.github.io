@@ -10,4 +10,4 @@ Meanwhile, check these out:
 - [Peditor](https://shubham1172.github.io/peditor/) - Text editor in python
 - [Beeter](https://shubham1172.github.io/beeter/) - Social media for beeting
 <br><br>
-[GitHub](https://github.com/shubham1172) | [Facebook](https://www.facebook.com/shubhamsharma1172) | [Quora](https://www.quora.com/profile/Shubham-Sharma-522)
+[GitHub](https://github.com/shubham1172) | [Facebook](https://www.facebook.com/shubhamsharma1172) | [LinkedIn](https://linkedin.com/in/shubham1172/) | [CV](files/CV.pdf)
