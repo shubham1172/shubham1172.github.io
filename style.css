@@ -1,0 +1,13 @@
+.header {
+    background: white;
+    color: #555555;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 16px;
+}
+
+.content {
+    margin-top: 80px;
+    padding: 16px;
+}
