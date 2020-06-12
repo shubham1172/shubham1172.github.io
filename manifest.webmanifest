@@ -1,0 +1,54 @@
+{
+    "short_name": "SS",
+    "name": "Shubham Sharma",
+    "description": "Portfolio for Shubham Sharma",
+    "icons": [
+        {
+            "src": "/images/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#DDDDDD",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#555555",
+    "shortcuts": [
+        {
+            "name": "Experiences",
+            "short_name": "Experiences",
+            "description": "List of my experiences",
+            "url": "/?source=pwa#experiences"
+        },
+        {
+            "name": "Projects",
+            "short_name": "Projects",
+            "description": "Projects I've written",
+            "url": "/?source=pwa#projects"
+        },
+        {
+            "name": "Publications",
+            "short_name": "Publications",
+            "description": "Papers I've published",
+            "url": "/?source=pwa#publications"
+        },
+        {
+            "name": "Talks",
+            "short_name": "Talks",
+            "description": "Talks I've given",
+            "url": "/?source=pwa#talks"
+        },
+        {
+            "name": "Volunteering",
+            "short_name": "Volunteering",
+            "description": "My volunteering experiences",
+            "url": "/?source=pwa#volunteering"
+        }
+    ]
+}
