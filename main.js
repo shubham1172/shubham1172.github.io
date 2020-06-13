@@ -6,4 +6,10 @@ window.addEventListener("load", function () {
             .then(_ => console.log("service worker registered"))
             .catch(err => console.log("service worker not registered", err))
     }
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169326937-1');
 })

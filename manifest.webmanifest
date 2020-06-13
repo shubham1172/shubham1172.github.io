@@ -21,12 +21,6 @@
     "theme_color": "#555555",
     "shortcuts": [
         {
-            "name": "Experiences",
-            "short_name": "Experiences",
-            "description": "List of my experiences",
-            "url": "/?source=pwa#experiences"
-        },
-        {
             "name": "Projects",
             "short_name": "Projects",
             "description": "Projects I've written",
@@ -44,11 +38,5 @@
             "description": "Talks I've given",
             "url": "/?source=pwa#talks"
         },
-        {
-            "name": "Volunteering",
-            "short_name": "Volunteering",
-            "description": "My volunteering experiences",
-            "url": "/?source=pwa#volunteering"
-        }
     ]
 }

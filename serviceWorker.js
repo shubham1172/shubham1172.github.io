@@ -4,7 +4,12 @@ const assets = [
     "/index.html",
     "/style.css",
     "/main.js",
-    "/images/profile.jpg"
+    "/images/profile.png",
+    "/images/Gini_preview.png",
+    "/images/SRM_preview.png",
+    "/images/VQA_preview.png",
+    "/images/ADAS_preview.png",
+    "/images/peditor_preview.png",
 ]
 
 self.addEventListener("install", installEvent => {

@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="/manifest.webmanifest">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169326937-1"></script>
     <script type="text/javascript" src="main.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Shubham Sharma</title>
@@ -22,10 +23,13 @@
     <div class="content">
         <table>
             <tr>
-                <td style="width:30%" class="desktop-only">
-                    <img src="images/profile.jpg" width="75%" />
+                <td style="width:30%;" class="desktop-only">
+                    <img src="images/profile.png" width="75%" />
                 </td>
                 <td style="width: 70%" valign="top">
+                    <div style="width:30%;text-align: center" class="mobile-only">
+                        <img src="images/profile.png" width="60%" />
+                    </div>
                     <p>
                         I am a Software Engineer at <a href="https://www.microsoft.com/en-in/msidc/">Microsoft</a>,
                         currently working on <a href="https://powerapps.microsoft.com/en-us/common-data-service/">Common
@@ -36,7 +40,7 @@
                     <p>
                         I previously interned at <a href="https://gmetri.com/">Gmetri</a>, an extended reality
                         start-up, where I wrote a Content Delivery Network to deliver images with on-the-fly
-                        transformations. My broad interests are distributed systems, and designing robust, highly
+                        transformations. My broad interests are distributed systems and designing robust, highly
                         scalable software.
                     </p>
                     <p>
@@ -44,17 +48,18 @@
                         <a href="https://github.com/shubham1172">github</a>
                         <a href="https://scholar.google.com/citations?user=e3zxDYoAAAAJ&hl=en">google scholar</a>
                         <a href="linkedin.com/in/shubham1172/">linkedin</a>
-                        <a href="https://drive.google.com/drive/u/0/folders/1r9PjFhOpetKaExLigBTyfPL98AORcu9k">cv</a>
+                        <a
+                            href="https://drive.google.com/file/d/1KBrLeGyr1fG4giNln7WMwJNyXq2myOey/view?usp=sharing">cv</a>
                     </p>
                 </td>
             </tr>
         </table>
 
-        <h2> Publications </h2>
+        <h2><a id="publications"></a> Publications </h2>
         <table class="generic-table">
             <tr>
                 <td class="generic-preview desktop-only">
-                    <img src="images/Gini_preview.png" width="100%">
+                    <img src="images/Gini_preview.png" width="90%">
                 </td>
                 <td class="generic-info">
                     <div class="generic-title">
@@ -108,11 +113,11 @@
             </tr>
         </table>
 
-        <h2>Side Projects</h2>
+        <h2><a id="projects"></a>Side Projects</h2>
         <table class="generic-table">
             <tr>
                 <td class="generic-preview desktop-only">
-                    <img src="images/VQA_preview.png" width="100%">
+                    <img src="images/VQA_preview.png" width="90%">
                 </td>
                 <td class="generic-info">
                     <div class="generic-title">
@@ -122,7 +127,7 @@
                         <img src="images/VQA_preview.png" width="100%">
                     </div>
                     <div class="generic-about">
-                        VQA aims at a multi-layered understanding of pictures and allow answering questions in natural
+                        VQA provides a multi-layered understanding of pictures and allows answering questions in natural
                         language about the objects in it. A knowledge graph is generated out of entities, their
                         attributes and their relationships. It is then used to create a reading comprehension which
                         uses Microsoft’s R-NET to answer questions based on it.
@@ -134,7 +139,7 @@
             </tr>
             <tr>
                 <td class="generic-preview desktop-only">
-                    <img src="images/SRM_preview.png" width="100%">
+                    <img src="images/SRM_preview.png" width="90%">
                 </td>
                 <td class="generic-info">
                     <div class="generic-title">
@@ -156,7 +161,7 @@
             </tr>
             <tr>
                 <td class="generic-preview desktop-only">
-                    <img src="images/peditor_preview.png" width="100%">
+                    <img src="images/peditor_preview.png" width="90%">
                 </td>
                 <td class="generic-info">
                     <div class="generic-title">
@@ -175,7 +180,43 @@
             </tr>
         </table>
 
+        <h2><a id="talks"></a>Talks</h2>
+        <table class="generic-table">
+            <tr>
+                <td class="generic-info">
+                    <div class="generic-title">
+                        <a href="https://www.hydpy.org/">HydPy</a>: Writing your own container in python
+                    </div>
+                    <div class="generic-date">
+                        Feb 29, 2020
+                    </div>
+                    <div class="generic-about">
+                        Containers are ubiquitous. We use container software like Dockers and Linux Containers (LXCs)
+                        every day without knowing what goes inside that black box. In this talk, we explored the
+                        principles of containerization and how it functions in the Linux ecosystem. We wrote a mini
+                        container in Python on top of Linux.
+                    </div>
+                    <div class="generic-links">
+                        [<a href="https://gist.github.com/shubham1172/7c53130e6e0258f998f331955564dc4c">code</a>]
+                        [<a
+                            href="https://docs.google.com/presentation/d/1o056shL2bAWqGYV14B2Kg2DABGFJs1YPJATtngj6J5w/edit?usp=sharing">slides</a>]
+                        [<a href="https://www.youtube.com/watch?v=VThBhfnTRiY">youtube</a>]
+                    </div>
+                </td>
+            </tr>
+        </table>
 
+        <h2><a id="miscellaneous"></a>Miscellaneous</h2>
+        <div class="miscellaneous">
+            <ul>
+                <li><a
+                        href="https://devrant.com/rants/1893446/cleaning-lady-just-asked-me-what-os-i-use-well-linux-i-replied-oh-she-said-ill-a">Btw,
+                        I use Arch</a></li>
+                <li><a href="http://medium.com/@shubhamsharma1172">I write occasionally</a></li>
+                <li>I like playing guitar</li>
+                <li><a href="https://www.duolingo.com/profile/shubham1172">Hablo poco español</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 

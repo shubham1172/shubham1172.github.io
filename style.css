@@ -8,12 +8,16 @@
 }
 
 .generic-info {
-    padding-left: 2%;
     width: 70%;
 }
 
 .generic-title {
     font-weight: bold;
+    font-size: 120%;
+}
+
+.generic-date {
+    font-size: 75%;
 }
 
 .generic-authors a {
@@ -37,6 +41,10 @@
     top: 0;
     width: 100%;
     text-align: center;
+}
+
+.miscellaneous a {
+    color: #555555
 }
 
 body {
