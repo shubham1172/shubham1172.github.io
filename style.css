@@ -1,18 +1,35 @@
-.paper-table {
+.generic-table {
     border-collapse:separate; 
     border-spacing:0 15px; 
 }
 
-.paper-title {
+.generic-preview {
+    width: 30%;
+}
+
+.generic-info {
+    padding-left: 2%;
+    width: 70%;
+}
+
+.generic-title {
     font-weight: bold;
 }
 
-.paper-authors a {
+.generic-authors a {
     border-bottom: none;
 }
 
-.paper-links a {
+.generic-links a {
     color: #555555;
+}
+
+.generic-preview {
+    text-align: center;
+}
+
+.generic-mobile-preview {
+    text-align: center;
 }
 
 .header {
@@ -35,6 +52,10 @@ a {
     color: black
 }
 
+.desktop-only {display: inherit;}
+.mobile-only {display: none;}
+
 @media screen and (max-width: 768px) {
     .desktop-only {display: none;}
+    .mobile-only {display: inherit;}
 }
