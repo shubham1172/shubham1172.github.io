@@ -4,7 +4,7 @@ const assets = [
     "/index.html",
     "/style.css",
     "/main.js",
-    "/images/profile.png"
+    "/images/profile.jpg"
 ]
 
 self.addEventListener("install", installEvent => {

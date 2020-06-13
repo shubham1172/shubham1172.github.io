@@ -1,13 +1,40 @@
-.header {
-    background: white;
-    color: #555555;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 10px 16px;
+.paper-table {
+    border-collapse:separate; 
+    border-spacing:0 15px; 
 }
 
-.content {
-    margin-top: 80px;
-    padding: 16px;
+.paper-title {
+    font-weight: bold;
+}
+
+.paper-authors a {
+    border-bottom: none;
+}
+
+.paper-links a {
+    color: #555555;
+}
+
+.header {
+    color: #555555;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 110%;
+    padding: 0% 10%;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+    color: black
+}
+
+@media screen and (max-width: 768px) {
+    .desktop-only {display: none;}
 }
