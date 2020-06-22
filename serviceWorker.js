@@ -1,7 +1,5 @@
-const staticPortfolio = "portfolio-shubham1172-site-v1"
+const staticPortfolio = "portfolio-shubham1172-site-v1.01"
 const assets = [
-    "/",
-    "/index.html",
     "/style.css",
     "/main.js",
     "/images/profile.png",
